@@ -1,0 +1,78 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 2em;
+  text-align: center;
+  background-image: linear-gradient(#ecf8f8,#f7ede2);
+}
+
+h1 {
+  font-family: "Shadows Into Light Two", serif;
+  font-style: italic;
+  font-size: 5em;
+  color: white;
+  margin-bottom: 1em;
+  text-align: center;
+  background-color: #f08080;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 2em;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.question {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+
+.answer-choice {
+  justify-content: space-around;
+}
+
+.answer-choice img {
+  height: 11em;
+  margin: 1em;
+  box-shadow: 8px 8px 8px #999;
+}
+
+.answer-choice button {
+  background-color: #ffd5c2;
+  color: #c8553d;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 1em;
+  padding: 1em;
+  height: 50px;
+  width: 250px;
+  margin: 1em;
+  border: none;
+  box-shadow: 4px 4px 4px #999;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+/* Try to make button stay faded when active */
+button:active {
+  opacity: 0.5;
+}
+
+.result {
+  font-size: 3em;
+  color: #6d6875;
+  background-color: #ffb5a7;
+  margin: 4em;
+  text-shadow: 4px 4px #f0efeb;
+}
+
+#restart {
+  font-size: 25px;
+  border: none;
+  padding: 1em;
+  border-radius: 0.5em;
+  background-color: #fe6d73;
+}
